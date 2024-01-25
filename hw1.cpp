@@ -1,3 +1,5 @@
+//Wadood Abdul, Program details: Take in three names using cin and print them out using cout
+
 #include <iostream>
 #include <string>
 
