@@ -2,21 +2,24 @@
 #include <string>
 
 int main() {
-    std::string name;
-    std::string major;
-    std::string city;
+    // Program to take three string inputs and display them back to the user
+    std::string name1;
+    std::string name2;
+    std::string name3;
 
-    std::cout << "Enter your name: ";
-    std::cin >> name;
+    std::cout << "Enter the first name: ";
+    std::cin >> name1;
     std::cin.ignore(); // Clear input buffer
     
-    std::cout << "\nEnter your major: ";
-    std::getline(std::cin, major);
+    std::cout << "\nEnter the second name: ";
+    std::getline(std::cin, name2);
     
-    std::cout << "\nWhere are you from? (city): ";
-    std::getline(std::cin, city);
+    std::cout << "\nEnter the thied name: ";
+    std::getline(std::cin, name3);
 
-    std::cout << "Your name is " << name << ", you are from " << city << ", your major is " << major << std::endl;
+    std::cout << "Name 1 is " << name1 << std::endl;
+    std::cout << "Name 2 is " << name2 << std::endl;
+    std::cout << "Name 3 is " << name3 << std::endl;
 
     return 0;
 }
