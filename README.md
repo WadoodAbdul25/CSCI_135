@@ -1,2 +1,2 @@
-To run the file use command in your termina:
+To run the file use this command in your terminal:
 `./hw1`
