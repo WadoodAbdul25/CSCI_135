@@ -14,7 +14,7 @@ int main() {
     std::cout << "\nEnter the second name: ";
     std::getline(std::cin, name2);
     
-    std::cout << "\nEnter the thied name: ";
+    std::cout << "\nEnter the third name: ";
     std::getline(std::cin, name3);
 
     std::cout << "Name 1 is " << name1 << std::endl;
